@@ -38,3 +38,6 @@ if has("autocmd")
   " remove trailing white spaces
   autocmd BufWritePre * :%s/\s\+$//e
 endif
+
+let mapleader = ","
+nmap <leader>nt :NERDTreeFocus<cr>
